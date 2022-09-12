@@ -20,7 +20,7 @@ TOTAL_LIST = make_list()
 def print_list():
     for ROW in range(TOTAL_NUM):
         print(TOTAL_LIST[ROW])
-def set_mine (TOTAL_LIST):
+def set_mine (TOTAL_LIST):    ############################ 필요 없는 
     first_over_line = random.randint(0,ROW-1) ## mine이 들어갈 행 선택
     if (first_over_line == 0):
         second_over_line = random.randint(1,ROW-1)
